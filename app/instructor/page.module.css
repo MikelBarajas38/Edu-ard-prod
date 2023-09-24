@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.main {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 60px;
+}
+
+.main h1 {
+    font-weight: 00;
+    font-size: 3rem;
+    color: #4D4D4D;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 70%;
+    justify-content: start;
+    align-items: start;
+}
+
+.h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    color: #828282;
+    text-align: center;
+}
+
+.materias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.materia {
+    color: #4c4c4c;
+    justify-content: start;
+    align-items: start;
+    padding: 30px ;
+    font-size: 1.5rem;
+    width: 20vw;
+    height: 200px;
+    background: linear-gradient(to bottom, #D2C3FE, #d9d9d900);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.materia:hover {
+    transform: scale(1.1);
+    background: linear-gradient(to bottom, #b9a2fc, #D2C3FE);
+    color: #ffffff;
+}
+
+.inp {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    transition: 0.5s;
+}
+
+.inp input {
+    margin: 2rem 0;
+    border: solid 1px #828282;
+    border-radius: 10px 0px 0px  10px;
+    font-size: 20px;
+    padding: 0 20px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+
+.info input:hover {
+    background-color: #eaeaea;
+    color: #4c4c4c;
+}
+.subtn {
+    padding: 10px ;
+    margin: 2rem 0;
+    background-color: #4D4D4D;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.subtn:hover {
+    background-color: #933cfe;
+}
+
+.backButton {
+    display: inline-block;
+    color: #4D4D4D; /* Set your desired text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove default link underline */
+    font-weight: 500; /* Make the text bold if desired */
+    margin: 20px 115px; /* Add margin as needed */
+    transition: 400ms;
+}
+  
+.backButton:hover {
+    color: #933cfe; /* Change color on hover if desired */
+    /* You can add more hover effects here */
+}
